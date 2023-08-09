@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="dist/style.css">
+      <link rel="stylesheet" href="dist/style1.css">
+      
+      
+</head>
+<body>
+      <div class="container">
+            <div class="hero flex">
+                  <nav class="navbar flex">
+                        <ul>
+                              <h1 class="text text-4xl text-gray-200 font-bold ">SOUND SPECTUREM</h1>
+                        </ul>
+                        <ul class="md:flex  hidden text-white gap-6 text-xl">
+                              <li class="hover:text-fuchsia-800"><a href="#">Home</a></li>
+                              <li class="hover:text-fuchsia-800"><a href="#">About</a></li>
+                              <li class="hover:text-fuchsia-800"><a href="#">New Songs</a></li>
+                              <li class="hover:text-fuchsia-800"><a href="#">Play list</a></li>
+                              <li class="hover:text-fuchsia-800"><a href="#">Contact</a></li>
+                        </ul>
+                        <div class="text-5xl m-2 text-white  md:hidden"><a href="#"> &#8801;</a></div>
+      
+                  </nav> 
+                  <div class="main">
+                        <div class="left ml-[6%] ">
+                              <h1 class="text-white text-[80px] ">THE <br> REAL <br> MUSICS</h1>
+                        
+                        </div>
+                       
+
+                        <div class="right flex float-right mr-[10%] mt-[100px] cursor-pointer ">
+                              <p class="text-2xl text-white">Click To Play</p>
+                              <img class="w-14 h-11 " src="dist/accets/accect/Foto-Play-PNG.webp" id="icon">
+                        
+                        
+
+                              <!-- <audio id="my Songs">
+                                    <source src="dist/accets/accect/mp3.mp3">
+                                    <source src="dist/accets/accect/mp3.mp3">
+                                    <source src="">
+      
+                              </audio> -->
+
+
+                              <audio id="audio" controls>
+                                    <source src="dist/accets/accect/mp3.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                              </audio>
+                                
+                              <button  id="playPauseButton" onclick="togglePlayPause()">Play</button>
+                        </div>
+                        <div><p class="text-white text-xl mt-[290px] ml-[6%]">Discover, stream, and share a constantly expanding <br> mix of music from emerging and major artists <br> around the world.</p></div>  
+                        
+                  </div>  
+                
+            </div>
+               
+
+            <!-- About section start -->
+           <div>
+            <h2>About</h2>
+           </div>
+      </div>
+
+
+
+     <script src="app.js"></script>
+
+</body>
+</html>
